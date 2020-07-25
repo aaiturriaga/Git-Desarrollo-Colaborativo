@@ -18,3 +18,6 @@ virtual machines:
     nics:
       management_network: eth0
       data_network: eth1
+
+      mi primer archivo
+      probando git: si si probando
