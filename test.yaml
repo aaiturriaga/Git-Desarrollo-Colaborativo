@@ -1,0 +1,20 @@
+# ==================
+# Server Information
+# ==================
+virtual machines:
+  - name: testvm1
+    description: testvm1 just for testing
+    fqdn: testvm1.browserling.com
+    password: hunter2
+    identity_file: "/toor/testvm1.crt"
+    nics:
+      management_network: eth0
+      data_network: eth1
+  - name: webvm
+    description: runs web
+    fqdn: www.browserling.com
+    password: hunter3
+    identity_file: /toor/web.crt
+    nics:
+      management_network: eth0
+      data_network: eth1
