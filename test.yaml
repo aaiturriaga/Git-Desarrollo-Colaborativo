@@ -20,3 +20,9 @@ virtual machines:
       data_network: eth1
 
       probando git: si si probando
+
+      nics:
+      management_network: eth0
+      data_network: eth1
+
+      probando git: si si probando
